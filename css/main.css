@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: arial, verdana, sans-serif;
+}
+
+#header {
+  background-color: #FEDC3D;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+
+#logo-name {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #3D5FFE;
+  margin: 0;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+ul#nav {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+a.interact {
+  text-decoration: none;
+  color: #BFD8D2;
+}
+
+li.interact:first-child {
+  border-top: 3px solid #FFFFFF;
+}
+
+li.interact {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 1.3em;
+}
+
+div#home-image {
+  width: 100%;
+  height: 700px;
+  background-image: url("http://www.trilogyfm.com.au/wp-content/uploads/2016/08/160307-cleaningservices-stock.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+div.promo-container {
+  text-align: center;
+}
+
+div.promo {
+  margin-top: 50px;;
+  max-width: 29%;
+  min-width: 27%;
+  height: 100%;
+  min-height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 10px;
+}
+
+h1.promo-title {
+  color: #323232;
+}
+
+img.promo-img {
+  border: 1px solid #A9A9A9;
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 732px) {
+  div.promo {
+    display: block;
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  img.promo-img {
+    width: 600px;
+  }
+
+  div.promo-container {
+    padding: 5px;
+  }
+
+  li.interact {
+    display: block;
+    border-bottom: 1px solid #6E87FE;
+  }
+
+  li.interact:last-child {
+    border-bottom: none;
+  }
+
+  li.interact:first-child {
+    border-top: none;
+  }
+}
